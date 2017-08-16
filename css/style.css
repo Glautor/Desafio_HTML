@@ -1,0 +1,127 @@
+body{
+	background-color: #161310;
+	font-family: 'Montserrat', sans-serif;
+
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+#lat1{
+	background-color: #0E0E0E;
+	margin-left: -1%;
+	margin-top: -1%;
+	width: 12.5%;
+	height: 300%;
+	position: absolute;
+	z-index: 2;
+}
+#lat2{
+	background-color: #0E0E0E;
+	margin-left: 87.5%;
+	margin-top: -1%;
+	width: 11.9%;
+	height: 300%;
+	position: absolute;
+	z-index: 2;
+}
+#all{
+}
+#PCs{
+	position: absolute;
+	margin-left: 1.2%;
+	margin-top: -0.6%;
+	width: 89%;
+	filter: contrast(150%);
+	opacity: 0.6;
+}
+#nav{
+	position: absolute;
+	margin-left: 11%;
+	margin-top: -1%;
+	margin-bottom: 0.6%;
+	background-color: rgba(23, 20, 17, 0.7);
+	filter: alpha(65%);
+	width: 76%;
+	height: 16%;
+	border-style: solid;
+	border-width: 1px;
+	z-index: 1;
+}
+#logo{
+	margin-top: 4.7%;
+	margin-left: 5%;
+	position: absolute;
+}
+#itens{
+	margin-left: 61.8%;
+}
+#ulmenu li{
+	margin-top: 3%;
+	position: absolute;
+	list-style: none;
+	font-size: 18px;
+	color: #FFF;
+}
+#categorias{
+	margin-left: 6%;
+}
+#blog{
+	margin-left: 16.5%;
+}
+#membros{
+	margin-left: 22%;
+}
+#aprenda{
+	z-index: 4;
+	position: absolute;
+	color: #FFF;
+	margin-top: 21%;
+	margin-left: 20%;
+	font-size: 52px;
+}
+#bot1{
+	z-index: 4;
+	padding: 1%;
+	position: absolute;
+	color: #FFF;
+	font-size: 25px;
+	border-radius: 5px;
+	border-style: solid;
+	width: 18%;
+	height: 5%;
+	margin-left: 28%;
+	margin-top: 37.5%;
+}
+#bot2{
+	z-index: 4;
+	padding: 1%;
+	position: absolute;
+	color: #FFF;
+	font-size: 25px;
+	border-radius: 5px;
+	border-style: solid;
+	width: 18%;
+	height: 5%;
+	margin-left: 49%;
+	margin-top: 37.5%;
+}
+#branco{
+	position: absolute;
+	z-index: 1;
+	background-color: #FFF;
+	margin-top: 58.8%;
+	width: 100%;
+	height: 100%;
+}
+#comp{
+	position: absolute;
+	z-index: 5;
+	margin-left: 12.5%;
+	margin-top: 5%;
+}
+#mattext{
+	position: absolute;
+	z-index: 5;
+	color: #F16529;
+}
