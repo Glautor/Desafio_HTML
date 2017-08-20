@@ -12,6 +12,16 @@ a{
 article{
 	color: #000;
 }
+.branco{
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-top: 70px;	
+	/* foi necessário adicionar essa class para poder colocar height: auto; na sections 2 e garantir que a recrursividade
+	funcionasse nela. Todavia, como tinha o auto, acrescentei uma div transparente, para que ele reconhecesse e deixasse a section 2
+	maior, o que a torn esteticamente mais agradável. */
+}
 .container1{
 	background-image: url("../images/banner.jpg"); 
     background-size: 1366px; 
@@ -27,7 +37,7 @@ article{
 	background-color: #FFF;
 	margin-top: 25%;
 	width: 100%;
-	height: 400px;
+	height: auto;
 	overflow: hidden;
 	border-color: #AAA;
 	border-style: solid;
@@ -37,7 +47,7 @@ article{
 	background-color: #FFF;
 	margin-top: 0px;
 	width: 100%;
-	height: 510px;
+	height: auto;
 	overflow: hidden;
 	border-bottom-color: #AAA;
 	border-bottom-style: solid;
@@ -49,11 +59,11 @@ article{
 	margin-right: 10%;
 	float: left;
 }
-.artsec1{
-	margin-left: 13%;
-	margin-top:  12%;
+.div-artsec1{
+	margin-left: 10%;
+	padding: 20px;
 	text-align: justify;
-	width: 1000px;
+	width: 80%;
 	font-weight: bold;
 }
 .material{
@@ -62,13 +72,14 @@ article{
 	letter-spacing: 5px;
 	float: left;
 	margin-top: 6%;
-	margin-left: 6%;
+	margin-left: 8%;
+	margin-right: 8%;
 }
 .material2{
 	font-size: 35px;
 	color: #F16529;
 	letter-spacing: 5px;
-	float: left;
+	float: right;
 	margin-left: 27%;
 	margin-right: 27%;
 }
@@ -80,12 +91,19 @@ article{
 	margin-left: 38%;
 	margin-right: 38%;
 }
+.material4{
+	margin-left: 40%;
+	float: right;
+}
 .top-header{
 	border-style: solid;
 	border-width: 1px;
 	border-color: #000;
 	background-color: rgba(23, 20, 17, 0.3);
 	overflow: hidden;
+}
+.cards-section2{
+	margin-left: 7.8%;
 }
 .card1{
 	background-color: #D65B43;
@@ -95,7 +113,7 @@ article{
 	width: 220px;
 	height: 320px;
 	box-shadow: 2px 2px #D9D9D9;
-	margin-left: 75px;
+	margin-left: 49px;
 	float: left;
 }
 .card2{
@@ -106,7 +124,7 @@ article{
 	width: 220px;
 	height: 320px;
 	box-shadow: 2px 2px #D9D9D9;
-	margin-left: 100px;
+	margin-left: 49px;
 	float: left;
 }
 .card3{
@@ -117,7 +135,7 @@ article{
 	width: 220px;
 	height: 320px;
 	box-shadow: 2px 2px #D9D9D9;
-	margin-left: 100px;
+	margin-left: 49px;
 	float: left;
 }
 .card4{
@@ -128,8 +146,8 @@ article{
 	width: 220px;
 	height: 320px;
 	box-shadow: 2px 2px #D9D9D9;
-	margin-left: 100px;
-	margin-right: 75px;
+	margin-left: 49px;
+	margin-right: 80px;
 	float: left;
 }
 .card5{
@@ -140,7 +158,7 @@ article{
 	width: 220px;
 	height: 320px;
 	box-shadow: 2px 2px #D9D9D9;
-	margin-left: 75px;
+	margin-left: 49px;
 	float: left;
 }
 .card6{
@@ -151,7 +169,7 @@ article{
 	width: 220px;
 	height: 320px;
 	box-shadow: 2px 2px #D9D9D9;
-	margin-left: 100px;
+	margin-left: 49px;
 	float: left;
 }
 .card7{
@@ -162,7 +180,7 @@ article{
 	width: 220px;
 	height: 320px;
 	box-shadow: 2px 2px #D9D9D9;
-	margin-left: 100px;
+	margin-left: 49px;
 	float: left;
 }
 .card8{
@@ -173,14 +191,14 @@ article{
 	width: 220px;
 	height: 320px;
 	box-shadow: 2px 2px #D9D9D9;
-	margin-left: 100px;
-	margin-right: 75px;
+	margin-left: 49px;
+	margin-right: 80px;
 	filter: contrast(80%);
 	float: left;
 }
 .botvermais{
 	float: left;
-	margin-left: 42.9%;
+	margin-left: 38%;
 	margin-top: 30px;
 	background-color: #161310;
 	border-radius: 8px;
@@ -218,11 +236,18 @@ article{
 	height: 104px;
 	margin-top: 10px;
 }
+.info-card4{	
+	background-color: #FFF;
+	width: 220px;
+	height: 104px;
+	margin-top: 10px;
+
+}
 .info-html-css{
 	background-color: #FFF;
 	width: 220px;
 	height: 104px;
-	margin-top: 10.5px;
+	margin-top: 11px;
 }
 .info-card8{
 	background-color: #FFF;
