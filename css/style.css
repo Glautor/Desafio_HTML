@@ -14,8 +14,6 @@ article{
 }
 .branco{
 	background-color: transparent;
-	border-style: solid;
-	border-color: black;
 	width: 20px;
 	height: 20px;
 	float: left;
